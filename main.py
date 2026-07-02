@@ -3,8 +3,6 @@ WIDTH, HEIGHT = 500,500
 pygame.init()
 screen = pygame.display.set_mode((WIDTH,HEIGHT))
 pygame.display.set_caption("Breakout")
-icon = pygame.image.load('breakout_icon.ico')
-pygame.display.set_icon(icon)
 clock = pygame.time.Clock()
 running = True
 
